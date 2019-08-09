@@ -14,6 +14,7 @@ In this little text I am going to explain how to create a Ruby Gem using Bundler
 
  1. Open a command prompt and run the next sentence:
  >$bundle gem 'gem_name'
+ 
  >**NOTE:** gem_name refers to the of your Ruby gem and could it be whatever you want.
  2. In my case I use the option '-t rspec' to specify that I'm going to use RSpec as testing environment. By default Bundler assign minitest. So my sentence for this example looked like this:
  >$bundle gem gem_example -t rspec
